@@ -10,7 +10,11 @@
  */
 public  abstract class Animal {
     private boolean despierto;
+  
     
+        public Animal() {
+            despierto=true;
+        }
     public void dormir(){
         this.despierto=false;
     
