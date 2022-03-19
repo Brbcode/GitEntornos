@@ -1,17 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 
-/**
- *
- * @author brbcode
- */
 public class Test {
     public static void main(String[] args) {
         System.out.println("hola");
         System.out.println("Antonio OK");
+<<<<<<< HEAD
         System.out.println("hola");
         System.out.println("Sofia");
+=======
+        System.out.println("jose");
+>>>>>>> 17d2d285996183a80e5360031090ce7f22447a4b
     }
 }
+
