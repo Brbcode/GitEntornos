@@ -8,13 +8,14 @@
  *
  * @author admin
  */
-public  abstract class Animal {
+public  abstract class Animal extends SerVivo{
     private boolean despierto;
-  
+      
+    public Animal(int edad) {
+        super(edad);
+        despierto=true;
+    }
     
-        public Animal() {
-            despierto=true;
-        }
     public void dormir(){
         this.despierto=false;
     
