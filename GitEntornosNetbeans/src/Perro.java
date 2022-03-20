@@ -1,6 +1,5 @@
 
 import java.util.Optional;
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -9,8 +8,7 @@ import sun.reflect.generics.reflectiveObjects.NotImplementedException;
  */
 
 /**
- *
- * @author gebac
+ * @author AntonioRG
  */
 public class Perro extends Animal implements Mascota{
     private String nombre;
@@ -19,27 +17,44 @@ public class Perro extends Animal implements Mascota{
         super(0);
         nombre = null;        
     }
+    
     public Perro(String nombre, int edad){
         super(edad);
         this.nombre = nombre;        
     }
     
-    public boolean persegir(){
-        throw new NotImplementedException();
+    public boolean persegir(SerVivo otro){
+        boolean check = false;
+        if(otro instanceof Gato){
+            if(((Gato) otro).estadespierto() == true)
+                check = true;
+        }
+        if(otro instanceof Perro && otro.estaVivo() == true) check = true;
+        return check;
     }
 
     @Override
     public boolean comer(SerVivo comida) {
-        throw new NotImplementedException();
+        boolean check = false;
+        if (comida instanceof Gato && comida.estaVivo()== true){
+            check = true;
+        }    
+        return check;
     }
 
     @Override
     public void darNombre(String nombre) {
-        throw new NotImplementedException();
+        this.nombre = nombre;
     }
 
     @Override
     public Optional<String> getNombre() {
-        throw new NotImplementedException();
+        Optional<String> o = null;
+        if (nombre == null){
+            o = Optional.empty();
+        }else{
+            o = Optional.of(nombre);
+        }
+        return o;
     }
 }
