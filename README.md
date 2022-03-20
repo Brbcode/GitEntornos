@@ -34,6 +34,7 @@ Clase abstracta que añade la funcionalidad de dormir y despertar a un `SerVivo`
 Clase, posee la habilidad de nadar.
 Metodo:
 - nadar: devuelve `true` si esta vivo.
+- comer: devuelte `true` si otro es un `Vegetal`
 
 ### Perro
 
