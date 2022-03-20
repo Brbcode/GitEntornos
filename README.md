@@ -44,7 +44,6 @@ Clase, posee dos constructores:
 Metodo: 
 - comer: devuelve `true` si el parametro proporcionado es un Gato (Vivo).
 - perseguir: devuelve `true` si el parametro proporcionado es un Gato y esta dormido o un Perro (Vivo).
-- setEstaVivo: cada vez que se le asigna `false` si pierde las siete vidas finalmente muere.
 
 ### Gato
 
@@ -55,6 +54,7 @@ Clase, posee dos constructores:
 Metodo: 
 - comer: devuelve `true` si el parametro proporcionado es un Pez (Vivo) y Pez muere.
 - maullar: devuelve un `String` aleatoria con la estructura "(mi)[a]+(u)" donde puede existir desde 1 a 5 caracteres 'a'.
+- setEstaVivo: cada vez que se le asigna `false` pierde una viada, si pierde siete vidas muere.
 
 ## Equipo
 
