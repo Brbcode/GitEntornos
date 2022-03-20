@@ -60,5 +60,10 @@ Metodo:
 ## Equipo
 
 - Autor | Desarrollador: [Bruno García Trípoli](https://github.com/Brbcode)
+- Desarrollador: [Antonio Ruiz Galvez](https://github.com/AntonioRG90)
+- Desarrollador: [Daniel Puente Maldonado](https://github.com/Danielillo10)
+- Desarrollador: [Jairo Daviv Comino Ruiz](https://github.com/jairocomino)
+- Desarrollador: [Jóse Domenez Quesada](https://github.com/JDomene99)
+- Desarrollador: [Sofía Khudomyasova](https://github.com/sofia1001)
 
 
