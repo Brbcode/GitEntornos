@@ -18,7 +18,7 @@ public abstract class SerVivo {
         estaVivo=true;
     }
     protected void setEstaVivo(boolean estado){
-        estado=estaVivo;
+        estaVivo=estado;
     }
     public boolean estaVivo(){
         return estaVivo;
